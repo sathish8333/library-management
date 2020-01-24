@@ -27,6 +27,12 @@
     <artifactId>hibernate-core</artifactId>
     <version>5.4.9.Final</version>
 </dependency>
+    <!-- MySQL database driver -->
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>8.0.11</version>
+	</dependency>
     
   </dependencies>
 </project>

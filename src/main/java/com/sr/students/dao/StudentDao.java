@@ -13,7 +13,6 @@ public class StudentDao {
 
 	public static void saveStudent(Student stuobj) {
 		factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
-
 		Session session = factory.getCurrentSession();
 		Transaction trans = session.beginTransaction();
 		session.save(stuobj);
